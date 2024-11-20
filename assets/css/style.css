@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-VariableFont_wght.woff');
+    src:url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype'),
+    url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f5f5;
+    margin: auto;
+    padding: auto;
+}
+.title {
+    font-family: 'Lato', sans-serif;
+    color: #17abb3;
+}
+.title-1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+.title-2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.photo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #ffffff 5px solid;
+    overflow: hidden;
+    margin: 40px 0;
+    cursor: zoom-in;
+}
+.photo img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    cursor: zoom-in;
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.info {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.info2 {
+    padding-top: 20px;
+    padding: 40px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.contact ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    width: 100%;
+    max-width: 1160px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+aside {
+    flex: 1;
+    background-color: #e3e3e3;
+    padding: 35px;
+}
+main {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 35px;
+}
+header, footer {
+    max-width: 1160px;
+    margin: 0 auto;
+    background-color: #17abb3;
+    font-family: 'Raleway', sans-serif;
+}
+hr {
+    margin: 12px 0;
+    color: #333333;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.skill {
+    margin: 5px 0;
+}
+.skill ul {
+    list-style: none;
+    padding: 5px 0;
+}
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.skill-name {
+    font-weight: bold;
+}
+.skill-level {
+    text-align: right;
+    color: #17abb3;
+    font-weight: bold;
+    font-size: large;
+}
+
+.language {
+    margin: 5px 0;
+}
+.language ul {
+    list-style: none;
+    padding: 5px 0;
+}
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.language-name {
+    font-weight: bold;
+}
+.language-level {
+    text-align: right;
+}
+
+.quality {
+    margin: 5px 0;
+}
+.quality ul {
+    list-style-type: square;
+    padding: 7px 15px;
+}
+.quality ul li::marker {
+    font-size: 1.5em;
+    color: #17abb3;
+}
+
+.hobby {
+    margin: 5px 0;
+}
+.hobby ul {
+    list-style-type: square;
+    padding: 7px 15px;
+}
+.hobby ul li::marker {
+    font-size: 1.5em;
+    color: #17abb3;
+}
+
+
+.formation {
+    margin: 5px 0;
+}
+.formation ul {
+    list-style: none;
+}
+.forma-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.forma-date {
+    text-align: right;
+    color: #17abb3;
+}
+
+.stage {
+    margin: 5px 0;
+}
+.stage ul {
+    list-style: none;
+}
+.stage-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.stage-date {
+    text-align: right;
+    color: #17abb3;
+}
+
+.experience {
+    margin: 5px 0;
+}
+.exp ul {
+    list-style: none;
+}
+.exp-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.exp-date {
+    text-align: right;
+    color: #17abb3;
+}
+p {
+    text-indent: 50px;
+}
+
+.social-footer {
+    text-align: center;
+    padding: 13px 5px;
+    font-size: 1.5em;
+}
+.social-item {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.time-footer {
+    text-align: center;
+    padding: 10px 10px;
+    color: #ffffff;
+}
+.iconf {
+    color: #ffffff;
+}
+.iconf:hover {
+    opacity: 0.5;
+}
